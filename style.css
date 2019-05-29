@@ -5,3 +5,7 @@ html, body {
 canvas {
     display: block;
 }
+iframe{
+    height: 600;
+    width: 600;
+}
