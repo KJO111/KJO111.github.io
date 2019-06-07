@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+canvas {
+    display: block;
+}
+.dropbtn {
+    background-color: gold;
+    color: darkblue;
+    padding: 16px;
+    font-size: 16px;
+    font-family:Helvetica;
+    border: none;
+    cursor: pointer;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.tc {
+    color: #FFFF;
+    font-size: 30px;
+}
+.ts {
+    color: #FFFF;
+    font-size: 60px;
+}
+.tt {
+    color: #FFFF;
+    font-size: 150px;
+}
+.homebg {
+    background-image: url("https://media.giphy.com/media/Z9nyDUIvUPNKg/giphy.gif");>
+    background-repeat: no-repeat;
+}
+
+.projbg {
+    background: url(https://media.giphy.com/media/buVz4N0U5xIas/giphy.gif);>
+}
+.pongbg {
+    background: url(https://media.giphy.com/media/26n6G8lRMOrYC6rFS/giphy.gif);>
+}
+
+.lifebg {
+    background: url(https://media.giphy.com/media/3ov9k1173PdfJWRsoE/giphy.gif);>
+}
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #cccc49;}
